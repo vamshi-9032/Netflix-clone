@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Netflix India â€“ Watch TV shows & movies online. Stream unlimited content on your phone, tablet, laptop, and TV.">
-    <title>Netflix India â€“ Watch TV Shows Online, Watch Movies Online</title>
+    <title>Netflix India  Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico" type="image/x-icon">
 </head>
@@ -20,12 +21,10 @@
             </a>
             <div class="header-actions">
                 <label class="language-field" aria-label="Select language">
-                    <svg class="globe-icon" viewBox="0 0 16 16" width="16" height="16" fill="none" aria-hidden="true">
-                        <path fill="currentColor" d="M8 .5a7.5 7.5 0 100 15 7.5 7.5 0 000-15zm5.676 4.406H11.35a11.755 11.755 0 00-1.025-2.957 6.022 6.022 0 013.35 2.957zM8 1.995c.622.883 1.12 1.846 1.476 2.871H6.524A10.289 10.289 0 018 1.995zm-5.933 4.4a5.944 5.944 0 010-2.79h2.653a11.453 11.453 0 000 2.79H2.067zm.257 1.495h2.326c.232 1.04.576 2.04 1.025 2.957a6.035 6.035 0 01-3.35-2.957zm2.326-5.89H2.324a6.022 6.022 0 013.35-2.957c-.449.917-.793 1.917-1.025 2.957zM8 14.005a10.289 10.289 0 01-1.476-2.871h2.952A10.28 10.28 0 018 14.005zm1.8-4.366H6.2a9.946 9.946 0 010-3.278h3.6a9.941 9.941 0 010 3.278zm.274 4.312c.449-.917.793-1.917 1.025-2.957h2.326a6.035 6.035 0 01-3.35 2.957zm1.318-4.452a11.47 11.47 0 000-2.79h2.653a5.944 5.944 0 010 2.79H11.392z"/>
-                    </svg>
+                    <i class="bi bi-globe2 globe-icon" aria-hidden="true"></i>
                     <select class="language-select" id="header-language" name="language">
                         <option value="en">English</option>
-                        <option value="hi">à¤¹à¤¿à¤¨à¥à¤¦à¥€</option>
+                        <option value="hi">Hindi</option>
                     </select>
                 </label>
                 <button class="signin-btn" id="signin-btn" type="button">Sign In</button>
@@ -67,7 +66,7 @@
         <div class="hero-overlay" aria-hidden="true"></div>
         <div class="hero-content">
             <h1 class="hero-heading">Unlimited movies, TV shows, and more</h1>
-            <p class="hero-tagline">Starts at â‚¹149. Cancel at any time.</p>
+            <p class="hero-tagline">Starts at ₹149. Cancel at any time.</p>
             <p class="hero-description">Ready to watch? Enter your email to create or restart your membership.</p>
             <form class="hero-form" id="hero-form" action="#">
                 <div class="email-field">
@@ -288,8 +287,9 @@
                         <svg class="faq-icon" viewBox="0 0 26 26" fill="none"><path d="M13 3v20M3 13h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
                     </label>
                     <div class="faq-answer">
-                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more â€” on thousands of internet-connected devices.</p>
-                        <p>You can watch as much as you want, whenever you want, without a single ad â€” all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+<p>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
                     </div>
                 </div>
                 <div class="faq-item" id="faq-item-2">
@@ -299,7 +299,7 @@
                         <svg class="faq-icon" viewBox="0 0 26 26" fill="none"><path d="M13 3v20M3 13h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
                     </label>
                     <div class="faq-answer">
-                        <p>Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one fixed monthly fee. Plans range from â‚¹149 to â‚¹649 a month. No extra costs, no contracts.</p>
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649/month.</p>
                     </div>
                 </div>
                 <div class="faq-item" id="faq-item-3">
@@ -320,7 +320,7 @@
                         <svg class="faq-icon" viewBox="0 0 26 26" fill="none"><path d="M13 3v20M3 13h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
                     </label>
                     <div class="faq-answer">
-                        <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees â€” start or stop your account at any time.</p>
+                        <p>Netflix is flexible. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>                    
                     </div>
                 </div>
                 <div class="faq-item" id="faq-item-5">
@@ -384,12 +384,10 @@
                 <a href="#" id="footer-only">Only on Netflix</a>
             </div>
             <label class="language-field footer-language" aria-label="Select language">
-                <svg class="globe-icon" viewBox="0 0 16 16" width="16" height="16" fill="none" aria-hidden="true">
-                    <path fill="currentColor" d="M8 .5a7.5 7.5 0 100 15 7.5 7.5 0 000-15zm5.676 4.406H11.35a11.755 11.755 0 00-1.025-2.957 6.022 6.022 0 013.35 2.957zM8 1.995c.622.883 1.12 1.846 1.476 2.871H6.524A10.289 10.289 0 018 1.995zm-5.933 4.4a5.944 5.944 0 010-2.79h2.653a11.453 11.453 0 000 2.79H2.067zm.257 1.495h2.326c.232 1.04.576 2.04 1.025 2.957a6.035 6.035 0 01-3.35-2.957zm2.326-5.89H2.324a6.022 6.022 0 013.35-2.957c-.449.917-.793 1.917-1.025 2.957zM8 14.005a10.289 10.289 0 01-1.476-2.871h2.952A10.28 10.28 0 018 14.005zm1.8-4.366H6.2a9.946 9.946 0 010-3.278h3.6a9.941 9.941 0 010 3.278zm.274 4.312c.449-.917.793-1.917 1.025-2.957h2.326a6.035 6.035 0 01-3.35 2.957zm1.318-4.452a11.47 11.47 0 000-2.79h2.653a5.944 5.944 0 010 2.79H11.392z"/>
-                </svg>
+                <i class="bi bi-globe2 globe-icon" aria-hidden="true"></i>
                 <select class="language-select" id="footer-lang" name="footer-language">
                     <option value="en">English</option>
-                    <option value="hi">à¤¹à¤¿à¤¨à¥à¤¦à¥€</option>
+                    <option value="hi">Hindi</option>
                 </select>
             </label>
             <p class="footer-country">Netflix India</p>

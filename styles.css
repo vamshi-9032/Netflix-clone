@@ -137,6 +137,10 @@ img {
 .globe-icon {
     position: absolute;
     left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.95rem;
+    line-height: 1;
     pointer-events: none;
     color: var(--text-primary);
     z-index: 1;
